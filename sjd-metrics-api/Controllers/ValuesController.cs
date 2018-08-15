@@ -10,7 +10,7 @@ namespace sjd_metrics_api.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        // GET api/values
+        // GET api/values. Test comment!
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
